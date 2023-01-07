@@ -1,0 +1,8 @@
+nome = input('Digite seu nome: ')
+print('Bem vindo {}!'.format(nome))
+print('Veja novas poassibilidades usando o fatiamento!')
+print('Bem vindo {:20}! num espaço definido'.format(nome))
+print('Bem vindo {:>20}! alinhado a direita'.format(nome))
+print('Bem vindo {:<20}! alinhado a esquerda'.format(nome))
+print('Bem vindo {:^20}! centralizado'.format(nome))
+print('Bem vindo {:*^20}! complentando com caracteres'.format(nome))
