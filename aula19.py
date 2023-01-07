@@ -47,10 +47,10 @@ brasil.append(estado5)
 brasil.append(estado6)
 print(estado6)
 print(brasil)
-for n in brasil:
-	print(brasil[n])
-	print("***************")
-	print(brasil[n]['uf'])
+# for n in brasil.items():
+# 	print(brasil[n])
+# 	print("***************")
+# 	print(brasil[n]['uf'])
 
 titulo = ' O preenchimento dos dicionários tem segredos '
 print('{:=^70}'.format(titulo))
@@ -59,7 +59,8 @@ galera = list()
 for p in range(0, 3):
 	pessoa['nome'] = str(input('Digite o nome: '))
 	pessoa['idade'] = int(input('idade: '))
-	galera.append(pessoa.copy())  # aqui não se pode usar fatiamento [:] e se não referenciar, armnazena apenas o último elemento informado
+	galera.append(pessoa.copy())	# aqui não se pode usar fatiamento [:] e se não referenciar,
+									# armnazena apenas o último elemento informado
 print(galera) 
 print('*-'*30)
 for p in galera:
